@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/header-footer.css"/>
+    <link rel="stylesheet" href="css/foodmenu.css"/>
+</head>
+<body>
+<header class="top-bar" id="J_top_bar">
+
+</header>
+<!--第一部分搜索框导航条-->
+<div class="main logo_wrap2">
+    <div class="logo_inner left">
+        <a href="index.html" title="美食天下">美食天下</a>
+    </div>
+    <div class="logo_current left">
+        <h1><a href="foodmenu.html" title="菜谱">菜谱</a></h1>
+    </div>
+    <div class="logo_search right">
+        <form id="form_search" action="foodsearchhtml" method="post" target="_blank">
+            <div class="searchBox J_search">
+                <a href="javascript:;" title="搜索" class="search_Btn J_searchBTN right" id="search">搜索</a>
+                <input type="text" id="q" class="search_Text J_searchTxt right gay" data-first="on">
+            </div>
+        </form>
+    </div>
+    <div class="logo_nav">
+        <a class="on" href="foodmenu.html">菜谱首页<i></i><b></b></a>
+        <a href="foodmenu.html">分类<i></i><b></b></a>
+        <a href="foodmenu.html">菜单<i></i><b></b></a>
+        <a href="foodmenu.html">排行<i></i><b></b></a>
+        <span style="float: left; height:18px; margin:23px 4px 0; border-right: 1px solid #ddd;"></span>
+        <a target="_blank" href="foodmaterial.html" title="食材">食材</a>
+        <a target="_blank" href="foodmenu.html" title="食疗食补">食疗食补</a>
+    </div>
+</div>
+<!--第二部分 细条导航条-->
+<div class="nav_wrap2">
+    <ul>
+        <li><a href="index.html" class="on">首页</a></li>
+        <li><a title="热菜" href="javascript:;">热菜</a></li>
+        <li><a title="凉菜" href="javascript:;">凉菜</a></li>
+        <li><a title="汤羹" href="javascript:;">汤羹</a></li>
+        <li><a title="主食" href="javascript:;">主食</a></li>
+        <li><a title="小吃" href="javascript:;">小吃</a></li>
+        <li><a title="西餐" href="javascript:;">西餐</a></li>
+        <li><a title="烘焙" href="javascript:;">烘焙</a></li>
+        <li><a title="饮品" href="javascript:;">饮品</a></li>
+        <li><a title="零食" href="javascript:;">零食</a></li>
+        <li><a title="泡酱腌菜" href="javascript:;">泡酱腌菜</a></li>
+        <li><a title="自制食材" href="javascript:;">自制食材</a></li>
+        <li><a title="最新菜谱" href="javascript:;">最新菜谱</a></li>
+        <li id="navlist" class="right">
+            <a class="navlist_a" href="javascript:void(0);">浏览全部菜谱<i></i><b></b></a>
+            <div id="navlist_sub">
+                <div>
+                    <h5>主食/小吃/饮品</h5>
+                    <ul>
+                        <li><a title="米饭" href="javascript:;" target="_blank">米饭</a></li>
+                        <li><a title="炒饭" href="javascript:;" target="_blank">炒饭</a></li>
+                        <li><a title="包子" href="javascript:;" target="_blank">包子</a></li>
+                        <li><a title="饺子" href="javascript:;" target="_blank">饺子</a></li>
+                        <li><a title="馒头花卷" href="javascript:;" target="_blank">馒头花卷</a></li>
+                        <li><a title="面条" href="javascript:;" target="_blank">面条</a></li>
+                        <li><a title="饼" href="javascript:;" target="_blank">饼</a></li>
+                        <li><a title="粥" href="javascript:;" target="_blank">粥</a></li>
+                        <li><a title="冰品" href="javascript:;" target="_blank">冰品</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>场景/饮食方式</h5>
+                    <ul>
+                        <li><a title="早餐" href="javascript:;" target="_blank">早餐</a></li>
+                        <li><a title="快手菜" href="javascript:;" target="_blank">快手菜</a></li>
+                        <li><a title="下午茶" href="javascript:;" target="_blank">下午茶</a></li>
+                        <li><a title="中式宴请" href="javascript:;" target="_blank">中式宴请</a></li>
+                        <li><a title="西式宴请" href="javascript:;" target="_blank">西式宴请</a></li>
+                        <li><a title="夏季食谱" href="javascript:;" target="_blank">夏季食谱</a></li>
+                        <li><a title="高颜值" href="javascript:;" target="_blank">高颜值</a></li>
+                        <li><a title="宿舍时代" href="javascript:;" target="_blank">宿舍时代</a></li>
+                        <li><a title="二人世界" href="javascript:;" target="_blank">二人世界</a></li>
+                        <li><a title="儿童" href="javascript:;" target="_blank">儿童</a></li>
+                        <li><a title="孕妇" href="javascript:;" target="_blank">孕妇</a></li>
+                        <li><a title="产妇" href="javascript:;" target="_blank">产妇</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>中西菜系</h5>
+                    <ul>
+                        <li><a title="川菜" href="javascript:;" target="_blank">川菜</a></li>
+                        <li><a title="鲁菜" href="javascript:;" target="_blank">鲁菜</a></li>
+                        <li><a title="闽菜" href="javascript:;" target="_blank">闽菜</a></li>
+                        <li><a title="粤菜" href="javascript:;" target="_blank">粤菜</a></li>
+                        <li><a title="湘菜" href="javascript:;" target="_blank">湘菜</a></li>
+                        <li><a title="日料" href="javascript:;" target="_blank">日料</a></li>
+                        <li><a title="韩餐" href="javascript:;" target="_blank">韩餐</a></li>
+                        <li><a title="泰国菜" href="javascript:;" target="_blank">泰国菜</a></li>
+                        <li><a title="法国菜" href="javascript:;" target="_blank">法国菜</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>烘焙</h5>
+                    <ul>
+                        <li><a title="面包" href="javascript:;" target="_blank">面包</a></li>
+                        <li><a title="蛋糕" href="javascript:;" target="_blank">蛋糕</a></li>
+                        <li><a title="派塔" href="javascript:;" target="_blank">派塔</a></li>
+                        <li><a title="吐司" href="javascript:;" target="_blank">吐司</a></li>
+                        <li><a title="批萨" href="javascript:;" target="_blank">批萨</a></li>
+                        <li><a title="慕斯" href="javascript:;" target="_blank">慕斯</a></li>
+                        <li><a title="饼干" href="javascript:;" target="_blank">饼干</a></li>
+                        <li><a title="曲奇" href="javascript:;" target="_blank">曲奇</a></li>
+                        <li><a title="布丁" href="javascript:;" target="_blank">布丁</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>常见菜式</h5>
+                    <ul>
+                        <li><a title="热菜" href="javascript:;" target="_blank">热菜</a></li>
+                        <li><a title="凉菜" href="javascript:;" target="_blank">凉菜</a></li>
+                        <li><a title="主食" href="javascript:;" target="_blank">主食</a></li>
+                        <li><a title="小吃" href="javascript:;" target="_blank">小吃</a></li>
+                        <li><a title="汤羹" href="javascript:;" target="_blank">汤羹</a></li>
+                        <li><a title="烘焙" href="javascript:;" target="_blank">烘焙</a></li>
+                        <li><a title="饮品" href="javascript:;" target="_blank">饮品</a></li>
+                        <li><a title="家常菜" href="javascript:;" target="_blank">家常菜</a></li>
+                        <li><a title="开胃菜" href="javascript:;" target="_blank">开胃菜</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>所有菜谱</h5>
+                    <ul>
+                        <li><a title="最新发布" href="javascript:;" target="_blank">最新发布</a></li>
+                        <li><a title="最新推荐" href="javascript:;" target="_blank">最新推荐</a></li>
+                        <li><a title="最热菜谱" href="javascript:;" target="_blank">最热菜谱</a></li>
+                        <li><a title="家常菜谱" href="javascript:;" target="_blank" style="color:#ff6767;">家常菜谱</a></li>
+                    </ul>
+                    <h5>食疗食补</h5>
+                    <ul>
+                        <li><a title="补钙" href="javascript:;" target="_blank">补钙</a></li>
+                        <li><a title="贫血" href="javascript:;" target="_blank">贫血</a></li>
+                        <li><a title="免疫力" href="javascript:;" target="_blank">免疫力</a></li>
+                        <li><a title="养胃" href="javascript:;" target="_blank">养胃</a></li>
+                        <li><a title="对抗雾霾" href="javascript:;" target="_blank">对抗雾霾</a></li>
+                        <li><a title="润肺止咳" href="javascript:;" target="_blank">润肺止咳</a></li>
+                        <li><a title="滋阴" href="javascript:;" target="_blank">滋阴</a></li>
+                        <li><a title="壮阳" href="javascript:;" target="_blank">壮阳</a></li>
+                        <li><a title="失眠" href="javascript:;" target="_blank">失眠</a></li>
+                        <li><a title="养颜" href="javascript:;" target="_blank">养颜</a></li>
+                        <li><a title="排毒" href="javascript:;" target="_blank">排毒</a></li>
+                        <li><a title="便秘" href="javascript:;" target="_blank">便秘</a></li>
+                        <li><a title="瘦身" href="javascript:;" target="_blank">瘦身</a></li>
+                        <li><a title="丰胸" href="javascript:;" target="_blank">丰胸</a></li>
+                        <li><a title="痛经" href="javascript:;" target="_blank">痛经</a></li>
+                        <li><a title="月经不调" href="javascript:;" target="_blank">月经不调</a></li>
+                    </ul>
+                </div>
+            </div>
+    </ul>
+</div>
+<!--第三部分 主体页面区域-->
+<div class="wrap clear">
+    <div class="main">
+        <div class="home_index_slider mt10">
+            <div id="home_index_slider" style="height: 225px; width: 1035px;">
+                <ul>
+                    <li style="float: left; display: block;">
+                        <a title="铁板美味，满足你的口腹之欲" href="javascript:;" target="_blank">
+                            <i><img src="http://i3.meishichina.com/attachment/recipe/2017/02/19/2017021914874728858596909590.jpg@!c320" class="imgLoad" src="img/menu/2017021914874728858596909590.jpg@!c320"></i>
+                            <div class="os"></div>
+                            <p class="line2">铁板美味，满足你的口腹之欲<br><span>26篇菜谱</span></p>
+                        </a>
+                    </li>
+                    <li style="float: left; display: block;">
+                        <a title="香肠：没有谁比我更百搭" href="javascript:;" target="_blank">
+                            <i><img src="http://i3.meishichina.com/attachment/recipe/2017/08/26/2017082615037506769238471547.jpg@!c320" class="imgLoad"></i>
+                            <div class="os"></div>
+                            <p class="line2">香肠：没有谁比我更百搭<br><span>36篇菜谱</span></p>
+                        </a>
+                    </li><li style="float: left; display: block;">
+                        <a title="我有一瓶肉桂粉" href="javascript:;" target="_blank">
+                            <i><img src="http://i3.meishichina.com/attachment/recipe/2017/05/25/20170525149569618004717338.jpg@!c320" class="imgLoad"></i>
+                            <div class="os"></div>
+                            <p class="line2">我有一瓶肉桂粉<br><span>32篇菜谱</span></p>
+                        </a>
+                    </li><li style="float: left; display: block;">
+                        <a title="菌菇家常吃法" href="javascript:;" target="_blank">
+                            <i><img src="http://i3.meishichina.com/attachment/collect/2015/06/30/201506301435656038852.jpg@!c320" class="imgLoad"></i>
+                            <div class="os"></div>
+                            <p class="line2">菌菇的家常吃法<br><span>113篇菜谱</span></p>
+                        </a>
+                    </li><li style="float: left; display: block;">
+                        <a title="看到麻糬就走不动的我～" href="javascript:;" target="_blank">
+                            <i><img class="imgLoad" src="http://i3.meishichina.com/attachment/recipe/2017/08/09/2017080915022573856015828748.jpg@!c320"></i>
+                            <div class="os"></div>
+                            <p class="line2">看到麻糬就走不动的我～<br><span>23篇菜谱</span></p>
+                        </a>
+                    </li><li style="float: left; display: block;">
+                        <a title="鸡，鸭，鱼，肉，的做法大全" href="javascript:;" target="_blank">
+                            <i><img class="imgLoad" src="./【菜谱】家常菜图片做法大全_精选孕妇简单营养健康菜谱_中西餐快餐饭店电子菜谱_美食天下_files/blank.gif"></i>
+                            <div class="os"></div>
+                            <p class="line2">鸡，鸭，鱼，肉，的做法大全<br><span>30篇菜谱</span></p>
+                        </a>
+                    </li>
+                    <li style="float: left; display: block;">
+                        <a title="美味盒子，你最爱哪一款？" href="javascript:;" target="_blank">
+                            <i><img  class="imgLoad" src="./【菜谱】家常菜图片做法大全_精选孕妇简单营养健康菜谱_中西餐快餐饭店电子菜谱_美食天下_files/blank.gif"></i>
+                            <div class="os"></div>
+                            <p class="line2">美味盒子，你最爱哪一款？<br><span>36篇菜谱</span></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span class="control">
+                <a class="prevBtn" href="javascript:void(0);">
+                    <i>&nbsp;</i>
+                </a>
+                <a class="nextBtn" href="javascript:void(0);">
+                    <i>&nbsp;</i></a>
+            </span>
+            <span class="control">
+                <a class="prevBtn" href="javascript:void(0);">
+                    <i>&nbsp;</i>
+                </a><a class="nextBtn" href="javascript:void(0);">
+                <i>&nbsp;</i>
+            </a>
+            </span>
+        </div>
+        <div class="recipe_index_n10 mt20 clear jtl">
+            <a href="javascript:;" target="_blank" title="一周最热">
+                <img class="imgLoad" src="img/menu/r01.jpg" style="display: block;">
+                一周最热
+            </a>
+            <a href="javascript:;" target="_blank" title="人气菜肴">
+                <img class="imgLoad" src="img/menu/r02.jpg" style="display: block;">
+                人气菜肴
+            </a>
+            <a href="javascript:;" target="_blank" title="夏季食谱">
+                <img class="imgLoad" src="img/menu/r03.jpg" style="display: block;">
+                夏季食谱
+            </a>
+            <a href="javascript:;" target="_blank" title="高颜值">
+                <img class="imgLoad" src="img/menu/r04.jpg" style="display: block;">
+                高颜值
+            </a>
+            <a href="javascript:;" target="_blank" title="快手菜">
+                <img class="imgLoad" src="img/menu/r05.jpg" style="display: block;">
+                快手菜
+            </a>
+            <a href="javascript:;" target="_blank" title="早餐">
+                <img class="imgLoad" src="img/menu/r06.jpg" style="display: block;">
+                早餐
+            </a>
+            <a href="javascript:;" target="_blank" title="家常菜谱">
+                <img class="imgLoad" src="img/menu/r07.jpg" style="display: block;">
+                家常菜谱
+            </a>
+            <a href="javascript:;" target="_blank" title="烘焙大全">
+                <img class="imgLoad" src="img/menu/r08.jpg" style="display: block;">
+                烘焙大全
+            </a>
+            <a href="javascript:;" target="_blank" title="亲子专区">
+                <img class="imgLoad" src="img/menu/r09.jpg" style="display: block;">
+                亲子专区
+            </a>
+            <a href="javascript:;" target="_blank" title="所有菜谱">
+                <img class="imgLoad" src="img/menu/r10.jpg" style="display: block;">
+                所有菜谱
+            </a>
+        </div>
+        <!--第四部分，菜单导航条 最新推荐，最新发布 热菜 凉菜 ...-->
+        <div id="recipeindex_info">
+            <div id="recipeindex_info_wrap" style="position: static; top: 40px; z-index: 1111; left: 216.5px;">
+                <div class="ui_title">
+                    <div class="ui_title_wrap clear">
+                        <h3 class="on"><a href="javascript:void(0);" order="hot">最新推荐</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="new">最新发布</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">热菜</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">凉菜</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">汤羹</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">主食</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">小吃</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">西餐</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">烘焙</a></h3>
+                        <h3 class=""><a href="javascript:void(0);"  order="tag">自制食材</a></h3>
+                        <a title="全部分类" class="right" href="javascript:;">全部分类</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="big4_list clear mt10" id="recipeindex_living">
+            <ul class="on">
+
+            </ul>
+        </div>
+        <!--第五部分 查看更多-->
+        <div class="ui-loading mt10" id="recipeindex_living_loading">
+            <a href="javascript:void(0);" class="">查看更多</a>
+            <div class="fixed-footer-weixin">
+                <div class="fixed-footer-weixin-inner">
+                    <span>美食天下手机客户端</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 盒子弹框登录 -->
+<div class="login_box">
+    <div class="head_text">登录美食天下<span><a href="javascript:;">×</a></span>
+    </div>
+    <div class="body_login">
+        <div class="input_text">
+            <p class="msg_waring">提示信息</p>
+            <label for="uname" class="mini-label">手机号/昵称</label>
+            <input type="text" name="uname" id="uname" class="mini-text"/>
+            <label for="m-pass" class="mini-label">密码:</label>
+            <input type="password" class="mini-text" id="m-pass">
+            <div class="login_check">
+                <div class="left">
+                    <input type="checkbox" id="m-auto" checked="">
+                    <label for="m-auto">下次自动登录</label>
+                </div>
+                <div class="right">
+                    <a href="" target="_blank">忘记密码？</a>
+                </div>
+            </div>
+            <input type="submit" class="mini-input" id="m-btn" value="登录">
+            <div class="clear">
+                <a href="register.html" class="right" style="padding-bottom: 20px;">免费注册</a>
+            </div>
+        </div>
+        <div class="login_other">
+            <div class="clear mt10">
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用QQ账号登录" href="javascript:;"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 0;">
+                </i>QQ</a>
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用微信账号登录" href="javascript:;"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 -135px;"></i>微信</a>
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用新浪微博账号登录" href="javascript:;" class="a2"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 -45px;"></i>微博</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login_box_ui"></div>
+<footer class="footer-area clear" id="footer">
+
+</footer>
+<!--返回顶部操作-->
+<div class="fixed-footer" style="left: 1216.5px; right: auto; bottom: 10px;">
+    <a href="javascript:;" title="点击返回页面顶部" onclick="window.scrollTo(0,0);" class="fixed-footer-go" style="display: inline;"></a>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<script src="js/foodmenu.js"></script>
+</body>
+</html>

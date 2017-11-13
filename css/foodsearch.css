@@ -1,0 +1,123 @@
+.search_nav {
+    padding: 90px 0 10px 0;
+}
+.search_nav .nv {
+    width: 640px;
+    height: 44px;
+    line-height: 44px;
+    margin: auto;
+}
+.search_nav .nv a.on {
+    color: #ff6767;
+}
+.search_nav .nv a {
+    float: left;
+    padding: 0 10px;
+    font-size: 16px;
+    height: 100%;
+}
+.search_nav .searchBox {
+    width: 640px;
+    margin: auto;
+}
+.search_nav .searchBox .search_Text {
+    border: 2px solid #ff6767;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    width: 518px;
+    font-size: 14px;
+    border-right: 0;
+    float: left;
+}
+.search_nav .searchBox .search_Btn {
+    background: #ff6767;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    width: 100px;
+    float: left;
+}
+.space_left {
+    width: 640px;
+    float: left;
+    overflow: hidden;
+    min-height: 400px;
+}
+.arinfo {
+    padding: 10px 0;
+    line-height: 22px;
+}
+.mo {
+    font-size: 20px;
+    color: #ff6767;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 0 20px 25px;
+    background: rgba(0,0,0,0) url(../img/index/mo.png) no-repeat scroll left center;
+}
+mo * {
+    color: #ff6767;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+.s_left li {
+    width: 50%;
+    float: left;
+    padding: 10px 0;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.s_left li a {
+    font-size: 20px;
+}
+.s_left li a:hover,.s_right li a:hover,.search_nav .nv a:hover{
+    color: #ff6767;
+    text-decoration: underline;
+}
+.s_left li p {
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.s_left li img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.imgLoad {
+    display: block;
+    background: url(../img/menu/load.png) no-repeat center center #f8f8f8;
+}
+.space_right {
+    width: 300px;
+    float: right;
+    overflow: hidden;
+    min-height: 460px;
+}
+.s_right li {
+    font-size: 16px;
+    padding: 0 0 10px;
+}
+.s_right li a:before {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    float: left;
+    height: 5px;
+    margin: 8px 8px 0 2px;
+    vertical-align: middle;
+    width: 5px;
+}
+

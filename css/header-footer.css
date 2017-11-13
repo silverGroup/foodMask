@@ -1,0 +1,494 @@
+/*头部导航条样式*/
+.top-bar{
+    height:40px;
+    background-color: #333;
+    color:#999;
+    top:0;
+    position: fixed;
+    z-index: 10000;
+    width:100%;
+    left:0;
+    min-width: 990px;
+}
+.top-bar .bar-left{
+    float:left;
+    height: 40px;
+}
+.top-bar .bar-left li{
+    float:left;
+}
+.top-bar .bar-left li a{
+    font-size: 14px;
+    color:#ccc;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+.top-bar .bar-left li a:hover{
+    color: #FFF;
+    background-color: black;
+}
+.top-bar .bar-left li a.top_bar_logo i{
+    display: block;
+    float: left;
+    width: 55px;
+    height: 14px;
+    margin: 13px 10px 0 0;
+    text-indent: -9999em;
+    background: url(../img/index/top-bar110.png) no-repeat scroll 0 0/55px auto;
+}
+.top-bar .bar-left li.top_bar_more{
+    position: relative;
+    width: 30px;
+    height:40px;
+    cursor: pointer;
+}
+.top-bar .bar-left li.top_bar_more:hover{
+    background-color: #000;
+}
+.top-bar .bar-left li.top_bar_more i{
+    display: block;
+    overflow: hidden;
+    width:0;
+    height: 0;
+    border:4px dashed transparent;
+    border-top:6px solid #ccc;
+    margin: 18px auto 0;
+}
+.top-bar .bar-left li.top_bar_more div{
+    background: #333;
+    left: -36px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    display: none;
+}
+.top-bar .bar-left li.top_bar_more div>a{
+    width:66px;
+}
+.top-bar a {
+    color: #f1f1f1;
+}
+.bar-text {
+    width: auto;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 199011;
+    cursor: pointer;
+}
+.bar-user .bar-text {
+    width: auto;
+    white-space: nowrap;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#J_barUserName {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+}
+.bar-user .bar-text-userName {
+    display: block;
+    width: 60px;
+}
+.bar-user .bar-text-userName a {
+    display: block;
+    width: 60px;
+    height: 40px;
+    position: relative;
+    float: right;
+}
+.top-bar a {
+    color: #f1f1f1;
+}
+#J_top_bar_user img.imgLoad {
+    background: #f2f2f2 url(../img/index/loading-16-16.gif) no-repeat scroll center center;
+}
+.bar-user .bar-text-userName img {
+    border-radius: 50%;
+    display: block;
+    margin: 5px auto;
+}
+.arrow {
+    display: block;
+    border: 5px dashed transparent;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+i {
+    font-style: normal;
+}
+/*右侧导航条区域*/
+.bar-user{
+    display: none;
+}
+.top-bar .nr3{
+    display: block;
+    font-size: 10px;
+    color:#f1f1f1;
+    width:60px;
+    line-height: 1em;
+    background-color: #fe5761;
+    float: right;
+    height:100%;
+    text-align: center;
+}
+.top-bar .nr3 .code{
+    display: none;
+    margin: 0;
+    position: absolute;
+    top: 45px;
+    right: 5px;
+    width: 100px;
+    height: auto;
+}
+.top-bar  img{
+    width:18px;
+    height: 18px;
+    display: block;
+    margin:4px auto 2px;
+}
+.bar-user .bar-text-userName img {
+    border-radius: 50%;
+    display: block;
+    margin: 5px auto;
+}
+.bar-box li a {
+    color: #f1f1f1;
+    display: block;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.top-bar .right{
+    float:right;
+}
+.bar-box li[class *=bar-box-item]{
+    line-height: 40px;
+}
+
+.bar-box li {
+
+    background: #a9a9a9;
+    display: block;
+}
+.top-bar .bar-item {
+    position: relative;
+    float: left;
+}
+.bar-tips {
+    position: absolute;
+    top: 50px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.bar-sign .bar-sign-text {
+    display: block;
+    height: 40px;
+    background: #FFA859;
+    line-height: 40px;
+    text-align: center;
+    width: 60px;
+    color: #f1f1f1;
+    float: right;
+    font-size: 10px;
+    line-height: 1em;
+}
+.bar-sign-box {
+    width: 60px;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    line-height: 22px;
+    display: none;
+    text-align: center;
+}
+.bar-sign-box h3 {
+    display: none;
+}
+.bar-sign-box p {
+    background: #f9be78;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+.bar-sign-box a {
+    display: block;
+    background: #fcc88a;
+    height: 40px;
+    line-height: 40px;
+    color: #f1f1f1;
+}
+.bar-tips .arrow {
+    position: absolute;
+    left: 20px;
+    border-width: 10px;
+}
+.bar-sign-tips .arrow {
+    left: auto;
+    right: 18px;
+}
+.bar-tips i.arrow {
+    top: -20px;
+    border-bottom: 10px solid #ccc;
+}
+.bar-tips b.arrow {
+    top: -19px;
+    border-bottom: 10px solid #fff;
+}
+.top-bar .bar-tips a.close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 14px;
+    color: #000;
+    height: 20px;
+    line-height: 20px;
+}
+.bar-sign-tips{
+    right: 60px;
+}
+.bar-sign-box{
+    display: none;
+}
+.arrow {
+    display: block;
+    border: 5px dashed transparent;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+.bar-link a{
+    font-size: 14px;
+    color: #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.bar-link a:hover{
+    background-color: black;
+    color:#FFFFFF;
+}
+.bar-login .bar-text a{
+    display: block;
+    line-height: 1em;
+    font-size: 10px;
+    width: 60px;
+    text-align: center;
+    height: 40px;
+    float: right;
+}
+
+.bar-add .bar-text {
+    background: #59C3D1;
+    color: #f1f1f1;
+    width: 60px;
+    line-height: 1em;
+    font-size: 10px;
+    padding: 0;
+}
+.bar-text {
+    width: auto;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 199011;
+    cursor: pointer;
+}
+.bar-box{
+    background-color: #fff;
+    position: absolute;
+    z-index: 199010;
+    width: 60px;
+    top: 40px;
+    right: 0;
+    text-align: center;
+    display: none;
+}
+.bar-box li a {
+    color: #f1f1f1;
+    display: block;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bar-box li a:hover{
+    color:#FFFFFF;
+}
+.bar-box li.bar-box-item-0 {
+    background: #585757;
+}
+.bar-box li{
+    background: #a9a9a9;
+    display: block;
+}
+.bar-add .bar-text {
+    background: #59C3D1;
+    color: #f1f1f1;
+    width: 60px;
+    line-height: 1em;
+    font-size: 10px;
+    padding: 0;
+}
+.bar-add .bar-box li{
+    line-height: 40px;
+}
+.bar-add .bar-box li.bar-box-item-0{
+    background: #8ecdd8;
+
+}
+.bar-add .bar-box li.bar-box-item-1 {
+    background: #a6dfea;
+}
+.bar-add .bar-box li.bar-box-item-2 {
+    background: #adecf8;
+}
+.on{
+    display: block;
+}
+.right li.bar-item:hover{
+    color:#fff;
+    background-color: black;
+}
+/*第二部分导航条*/
+
+.logo_wrap2{
+    padding-top: 50px;
+    height: 65px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.logo_wrap2 .logo_inner {
+    background: url(../img/index/logo.png) no-repeat scroll left center/108px auto;
+    width: 108px;
+}
+.logo_wrap2 .logo_inner a {
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    text-indent: -9999em;
+}
+.logo_wrap2 .logo_search .search_Btn {
+    border-radius: 0 3px 3px 0;
+    width: 80px;
+    height: 28px;
+    font-size: 14px;
+    color: #fff;
+    text-indent: 35px;
+    line-height: 28px;
+    background: #999 url(../img/index/search.png) no-repeat scroll 12px center/16px auto;
+}
+.logo_wrap2 .logo_search{
+    padding-top: 18.5px;
+}
+.logo_wrap2 .logo_search .search_Text {
+    width: 160px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    height: 20px;
+    line-height: 20px;
+    padding: 3px;
+}
+.logo_wrap2 .logo_nav{
+    height: 60px;
+    float:right;
+    padding: 0 40px 0 0;
+}
+.logo_nav a{
+    position: relative;
+    float:left;
+    padding:0 10px 5px;
+    font-size:20px;
+    line-height: 60px;
+}
+.logo_nav a:hover{
+    color:#ff6767;
+}
+/*尾部样式区*/
+.footer-area{
+    padding:10px 0;
+}
+.footer-area .main{
+    padding-top: 10px;
+    border-top:1px solid #e8e8e8;
+    position:relative;
+    top:0;
+    left:0;
+}
+.footer-area .ft1{
+    clear:none;
+    float: left;
+    color: #666;
+    width: 770px;
+}
+.footer-area .ft1 .c3b{
+    color:#c90;
+    font-size:14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.ft1 .c3b a{
+    color:#f50;
+}
+.ft1 .c3c{
+    color:#aaa;
+    font-size:12px;
+    margn-bottom:6px;
+}
+.footer-area  a:hover{
+    color:#f00;
+    text-decoration: underline;
+}
+.ft2,.ft3,.ft4{
+    clear: none;
+    float: right;
+    text-align: center;
+}
+.ft2 img, .ft3 img, .ft4 img {
+    display: block;
+}
+.ft3{
+    margin-right: 25px;
+}
+.w_links{
+    padding:15px 0 0 0;
+    clear:both;
+}
+.w_links li{
+    float: left;
+    padding: 0 12px 0 0;
+}
+.footer-info p {
+    float: left;
+    text-align: left;
+}
+.footer-info a:hover{
+    color:#f50;
+    text-decoration: underline;
+}
+
+
+
+

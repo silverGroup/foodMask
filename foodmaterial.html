@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>美食天下食材</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/header-footer.css"/>
+    <link rel="stylesheet" href="css/foodmaterial.css"/>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+    <script src="js/vue-resource.js"></script>
+</head>
+<body>
+<header class="top-bar" id="J_top_bar">
+
+</header>
+<!--导航条一区-->
+<div class="main logo_wrap2">
+    <div class="logo_inner left">
+        <a href="http://www.meishichina.com/" title="美食天下">美食天下</a>
+    </div>
+    <div class="logo_current left">
+        <h1><a href="http://www.meishichina.com/YuanLiao/" title="食材">食材</a></h1>
+    </div>
+    <div class="logo_search right">
+        <form id="form_search" action="http://home.meishichina.com/search/" method="post" target="_blank">
+            <div class="searchBox J_search"><a href="javascript:;" title="搜索" class="search_Btn J_searchBTN right" id="search">搜索</a><input type="text" id="q" class="search_Text J_searchTxt right gay" data-first="on">
+            </div>
+        </form>
+    </div>
+    <div class="logo_nav">
+        <a class="on" href="http://www.meishichina.com/YuanLiao/" title="食材分类">食材分类<i></i><b></b></a>
+        <a href="http://www.meishichina.com/YuanLiao/yingyang/" title="营养排行">营养排行<i></i><b></b></a>
+        <span style="float: left; height:18px; margin:23px 4px 0; border-right: 1px solid #ddd;"></span>
+        <a target="_blank" href="http://www.meishichina.com/YuanLiao/gongxiao/" title="食疗食补">食疗食补</a>
+    </div>
+</div>
+<!--导航条二区-->
+<div class="w nav_wrap2">
+    <ul>
+        <li v-for="(key,index) in listNav"  @click="changeStyle(index)">
+            <a  href="javascript:;" :title="key.title">
+                <router-link :to="'/'+key.load" :class="{on:isOn==index}">{{key.title}}</router-link>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!--食材广告区-->
+<div class="mt10 main clear"  style="height: 90px;">
+    <iframe width="100%" height="90" frameborder="0" scrolling="no" src="foodmaterialbanner.html">
+    </iframe>
+</div>
+<!--食材主体材料区-->
+<div class="wrap">
+    <div class="w clear main">
+        <div class="category_box mt20">
+            <router-view></router-view>
+        </div>
+    </div>
+</div>
+<footer class="footer-area clear" id="footer">
+
+</footer>
+<!-- 盒子弹框登录 -->
+<div class="login_box">
+    <div class="head_text">登录美食天下<span><a href="javascript:;">×</a></span>
+    </div>
+    <div class="body_login">
+        <div class="input_text">
+            <p class="msg_waring">提示信息</p>
+            <label for="uname" class="mini-label">手机号/昵称</label>
+'           <input type="text" name="uname" id="uname" class="mini-text"/>
+            <label for="m-pass" class="mini-label">密码:</label>
+            <input type="password" class="mini-text" id="m-pass">
+            <div class="login_check">
+                <div class="left">
+                    <input type="checkbox" id="m-auto" checked="">
+                    <label for="m-auto">下次自动登录</label>
+                </div>
+                <div class="right">
+                    <a href="" target="_blank">忘记密码？</a>
+                </div>
+            </div>
+            <input type="submit" class="mini-input" id="m-btn" value="登录">
+            <div class="clear">
+                <a href="register.html" class="right" style="padding-bottom: 20px;">免费注册</a>
+            </div>
+            </div>
+            <div class="login_other">
+            <div class="clear mt10">
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用QQ账号登录" href="http://home.meishichina.com/meishi2.php?ac=qqlogin&amp;op=login"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 0;">
+                </i>QQ</a>
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用微信账号登录" href="http://home.meishichina.com/meishi2.php?ac=wechatlogin&amp;op=login"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 -135px;"></i>微信</a>
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用新浪微博账号登录" href="http://home.meishichina.com/meishi2.php?ac=sinalogin" class="a2"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 -45px;"></i>微博</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login_box_ui"></div>
+<!--返回顶部操作-->
+<div class="fixed-footer" style="left: 1216.5px; right: auto; bottom: 10px;">
+    <a href="javascript:;" title="点击返回页面顶部" onclick="window.scrollTo(0,0);" class="fixed-footer-go" style="display: inline;"></a>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<!--vue路由构造-->
+<script src="js/foodmaterial-vue.js"></script>
+<script>
+</script>
+</body>
+</html>

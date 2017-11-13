@@ -1,0 +1,250 @@
+/*页面主体内容区*/
+.cms_index_slider {
+    position: relative;
+    height: 225px;
+    width: 990px;
+    overflow: hidden;
+}
+#cms_index_slider ul {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width:5000px;
+}
+#cms_index_slider li {
+    display: block;
+    height: 225px;
+    overflow: hidden;
+    position: relative;
+    width: 345px;
+    margin: 0 0;
+    float: left;
+    padding: 0;
+}
+#cms_index_slider li a {
+    width: 300px;
+    height: 225px;
+    display: block;
+    float: left;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+#cms_index_slider li a i {
+    display: block;
+    height: 225px;
+    overflow: hidden;
+    width: 300px;
+}
+#cms_index_slider li a img {
+    height: 225px;
+    width: 300px;
+    transition: all .5s ease-in-out;
+}
+.imgLoad {
+    display: block;
+    background: url(../img/menu/load.png) no-repeat center center #f8f8f8;
+}
+#cms_index_slider li a .os {
+    width: 300px;
+    height: 225px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: .2;
+}
+#cms_index_slider li a h4 {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    font-size: 16px;
+    line-height: 120%;
+    display: block;
+    width: 270px;
+    padding: 0 15px;
+    text-align: center;
+    z-index: 2;
+}
+.cms_index_slider .nextBtn, .cms_index_slider .prevBtn {
+    z-index: 3;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    background-color: #000;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    overflow: hidden;
+    text-indent: -9999em;
+    top: 87px;
+    left: 0;
+    cursor: pointer;
+}
+.cms_index_slider .nextBtn {
+    left: auto;
+    right: 0;
+}
+.cms_index_slider .nextBtn i, .cms_index_slider .prevBtn i {
+    display: block;
+    background: url(../img/menu/arrow.png) no-repeat;
+    width: 18px;
+    height: 35px;
+    margin: 7px 0 0 11px;
+}
+.cms_index_slider .nextBtn i {
+    background-position: -18px 0;
+}
+.space_left {
+    width: 640px;
+    float: left;
+    overflow: hidden;
+}
+#zhen_info {
+    margin: 20px 0 0;
+    height: 41px;
+}
+#zhen_title_wrap {
+    background: #fff;
+    padding: 0 0 5px;
+    width: 640px;
+}
+.ui_title {
+    height: 35px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.ui_title_wrap {
+    line-height: 30px;
+    font-size: 20px;
+}
+.ui_title_wrap h1.on, .ui_title_wrap h2.on, .ui_title_wrap h3.on {
+    color: #ff6767;
+    border-bottom: 3px solid #ff6767;
+}
+.ui_title_wrap h1, .ui_title_wrap h2, .ui_title_wrap h3 {
+    float: left;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #666;
+    padding-bottom: 4px;
+    outline: 0;
+    color: #333;
+    max-width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*文章区域设置*/
+#cms_list_living ul.on {
+    display: block;
+}
+#cms_list_living ul {
+    display: none;
+}
+.cms_list li {
+    padding: 0 0 20px 0;
+    clear: both;
+}
+.cms_list .pic {
+    float: left;
+    height: 120px;
+    width: 160px;
+    margin: 20px 0 0;
+    overflow: hidden;
+}
+.cms_list li img {
+    transition: all .5s ease-in-out;
+}
+.imgLoad:hover{
+    transform: scale(1.1,1.1);
+}
+.cms_list .detail {
+    color: #666;
+    padding: 16px 0 0 180px;
+}
+.cms_list li h4 {
+    font-size: 22px;
+    padding: 3px 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.cms_list li h4 a:hover,.cms_r_list li p a:hover{
+    color:#ff6767;
+    text-decoration: underline;
+}
+.cms_list .substatus {
+    font-size: 12px;
+    color: #999;
+}
+.cms_list .subcontent {
+    font-size: 14px;
+    color: #666;
+}
+.ui-loading {
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+}
+.ui-loading a {
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff6767;
+    background-color: #f3f3f3;
+    outline: 0;
+    user-select: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out .3s;
+}
+.ui-loading a:hover{
+    color: #fff;
+    background-color: #ff6767;
+}
+.space_right {
+    width: 300px;
+    float: right;
+    overflow: hidden;
+}
+.ui_title {
+    height: 35px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.ui_title_wrap {
+    line-height: 30px;
+    font-size: 20px;
+}
+.cms_r_list li {
+    padding: 15px 0 0;
+    clear: both;
+}
+.cms_r_list li p {
+    padding: 0 0 0 115px;
+}
+.cms_r_list li p a {
+    font-size: 14px;
+    line-height: 1.2em;
+}
+.cms_r_list li p span {
+    color: #999;
+}
+.cms_r_list li .pic {
+    float: left;
+}
+.cms_r_list li p a {
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+
+
+

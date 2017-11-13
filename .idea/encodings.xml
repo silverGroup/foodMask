@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/foodmembercenter.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/foodmenudetail.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/center/center.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/center/menu_add.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/center/menu_create.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/center/my_menu_me.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/footer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/header.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/header/mySignAdd.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/index/banners.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/index/indexmenu.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/login/login.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/foodMemberCenter.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/foodMembercenter-vue.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/foodmaterial-vue.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/foodmenudetail.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/header.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/loginRegister.js" charset="UTF-8" />
+  </component>
+</project>

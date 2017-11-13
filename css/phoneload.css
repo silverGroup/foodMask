@@ -1,0 +1,106 @@
+/*手机下载页面样式设置*/
+.mb1 {
+    width: 1090px;
+    height: 615px;
+    margin: 0 auto;
+    border-bottom: 2px solid #d8d8d8;
+    background: url(../img/phone/p1_3_1.jpg) no-repeat scroll 96px bottom;
+}
+.mb1 .d1 {
+    float: right;
+    width: 400px;
+    margin: 0 65px 0 0;
+    padding: 180px 0 0;
+}
+.mb1 .d1_1 {
+    font-size: 45px;
+    color: #333;
+    text-align: center;
+}
+.mb1 p {
+    padding: 15px 0;
+    font-size: 30px;
+    color: #999;
+}
+.d1_2 {
+    width: 333px;
+    margin: 50px auto 0;
+}
+.d1_2 img {
+    float: left;
+}
+.d1_2 a{
+    width:170px;
+    height: 46px;
+    line-height: 46px;
+    background: url(../img/phone/ios.jpg) no-repeat 17px center #e8e8e8;
+    border-radius: 3px;
+    float: left;
+    margin: 23px 0 0 15px;
+    font-size: 14px;
+    text-indent: 52px;
+    color: #333;
+    text-decoration: none;
+}
+.d1_2 a.and {
+    background: url(../img/phone/and.jpg) no-repeat 17px center #e8e8e8;
+    margin: 10px 0 0 15px;
+}
+.mb2 {
+    width: 1090px;
+    margin: 80px auto 60px;
+    text-align: center;
+}
+.mb2_1 {
+    float: left;
+    width: 270px;
+    padding: 5px 37px 25px 0;
+    overflow: hidden;
+}
+.mb2 .mb2_1 .h {
+    text-align: left;
+    margin: auto;
+    width: 165px;
+}
+.mb2 .h {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #5f5f5f;
+    font-size: 28px;
+}
+.mb2 .mb2_1 .h img {
+    float: left;
+}
+.mb2 p {
+    font-size: 22px;
+    color: #999;
+    padding: 10px 0;
+}
+.mb2_icate a {
+    width: 140px;
+    height: 44px;
+    line-height: 44px;
+    background: url(../img/phone/ios.jpg) no-repeat 5px center #e8e8e8;
+    border-radius: 3px;
+    float: left;
+    margin: 10px 0 0 7px;
+    font-size: 14px;
+    text-indent: 25px;
+    color: #333;
+    text-decoration: none;
+}
+.mb2_icate img {
+    float: left;
+}
+.mb2_icate a.and {
+    background: url(../img/phone/and.jpg) no-repeat 5px center #e8e8e8;
+}
+.mb2_2 {
+    float: left;
+    width: 420px;
+    padding: 5px 0 25px 0;
+    border-right: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    overflow: hidden;
+}

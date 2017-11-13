@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/header-footer.css"/>
+</head>
+<body>
+<header class="top-bar" id="J_top_bar">
+
+</header>
+<div class="bgImg">
+    <img class="vegas-background show" src="img/login/1.jpg" alt=""/>
+    <img class="vegas-background" src="img/login/2.jpg" alt=""/>
+    <img class="vegas-background" src="img/login/3.jpg" alt=""/>
+    <img class="vegas-background" src="img/login/4.jpg" alt=""/>
+</div>
+<div class="vegas-overlay" style="margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%;">
+</div>
+<div class="vegas-overlay" style="margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%;"></div>
+<div class="loginbox">
+    <div class="loginbox_h">
+        <a href="javascript:void(0);">注册</a>
+        <a href="javascript:void(0);" class="on">登录</a>
+    </div>
+    <div class="loginbox_c" style="height:230px">
+         
+        <div class="loginbox_l" style="margin:0 0;">
+             <p style="color:#ff6767" id="msg"></p>
+             <ul class="mform_r">
+                    <li>
+                        <label for="uname">昵称：</label>
+                        <input type="text" name="uname" id="uname"></li>
+                    <li>
+                        <label for="phone">手机号：</label>
+                        <input type="text" name="phone" id="phone">
+                    </li>
+                    <li style="border:0;">
+                        <label for="upwd">密　码：</label>
+                        <input type="password" name="upwd" id="upwd">
+                    </li>
+             </ul>
+             <input type="button" id="registerbtn" class="loginbtn" value="注&nbsp;册">
+            <!--<p style="padding:5px">欢迎使用第三方账号注册/登录美食天下</p>-->
+            <!--<div class="loginbox_r" style="width:220px">
+                <a class="a1" href="http://home.meishichina.com/meishi2.php?ac=qqlogin&amp;op=login" title="用QQ账号登录"></a>
+                <a class="a3" href="http://home.meishichina.com/meishi2.php?ac=wechatlogin&amp;op=login" title="用微信账号登录" style="margin:5px 40px"></a>
+                <a class="a2" href="http://home.meishichina.com/meishi2.php?ac=sinalogin" title="用新浪微博账号登录"></a>
+                <div style="clear:both;line-height: 1em;"><span style="width:30px;margin:0 15px;float:left">QQ</span><span style="width:30px;margin:0 35px;float:left">微信</span><span style="width:30px;margin:0 15px;float:left">微博</span></div>
+            </div>-->
+        </div>
+        <div class="loginbox_r">
+            <img width="110" src="img/login/msc_app.png" style="margin:48px 0 0">
+            <p>扫描二维码下载客户端</p>
+        </div>
+    </div>
+</div>
+<!-- 盒子弹框登录 -->
+<div class="login_box">
+    <div class="head_text">登录美食天下<span><a href="javascript:;">×</a></span>
+    </div>
+    <div class="body_login">
+        <div class="input_text">
+            <p class="msg_waring">提示信息</p>
+            <label for="uname" class="mini-label">手机号/昵称</label>
+            <input type="text" name="uname" id="uname" class="mini-text"/>
+            <label for="m-pass" class="mini-label">密码:</label>
+            <input type="password" class="mini-text" id="m-pass">
+            <div class="login_check">
+                <div class="left">
+                    <input type="checkbox" id="m-auto" checked="">
+                    <label for="m-auto">下次自动登录</label>
+                </div>
+                <div class="right">
+                    <a href="" target="_blank">忘记密码？</a>
+                </div>
+            </div>
+            <input type="submit" class="mini-input" id="m-btn" value="登录">
+            <div class="clear">
+                <a href="register.html" class="right" style="padding-bottom: 20px;">免费注册</a>
+            </div>
+        </div>
+        <div class="login_other">
+            <div class="clear mt10">
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用QQ账号登录" href="http://home.meishichina.com/meishi2.php?ac=qqlogin&amp;op=login"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 0;">
+                </i>QQ</a>
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用微信账号登录" href="http://home.meishichina.com/meishi2.php?ac=wechatlogin&amp;op=login"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 -135px;"></i>微信</a>
+                <a style="display:block;width:33.3%;float:left; text-align: center" title="用新浪微博账号登录" href="http://home.meishichina.com/meishi2.php?ac=sinalogin" class="a2"><i style="margin:5px auto;display:block;width:45px;height:45px;background:url(img/index/lin4.png) no-repeat scroll 0 -45px;"></i>微博</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login_box_ui"></div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/loginRegister.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>

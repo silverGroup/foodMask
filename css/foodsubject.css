@@ -1,0 +1,71 @@
+/*页面主体内容*/
+.zhen_listing_index {
+    width: 1111px;
+}
+.zhen_listing_index li {
+    float: left;
+    margin: 0 45px 20px 0;
+    text-align: center;
+    width: 300px;
+    height: 320px;
+    overflow: hidden;
+}
+.zhen_listing_index li a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+.zhen_listing_index li a i {
+    display: block;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+}
+.zhen_listing_index li a img {
+    width: 300px;
+    height: 300px;
+    margin-top: -25px;
+    transition: all .5s ease-in-out;
+}
+.imgLoad {
+    display: block;
+    background: url(../img/menu/load.png) no-repeat center center #f8f8f8;
+}
+.imgLoad:hover{
+    transform: scale(1.1,1.1);
+}
+.zhen_listing_index li a p {
+    font-size: 18px;
+    line-height: 120%;
+    padding: 5px 0;
+}
+.zhen_listing_index li a:hover{
+    color:#ff6767;
+}
+.ui-page {
+    overflow: hidden;
+    line-height: 34px;
+    height: 36px;
+    font-size: 0;
+    text-align: center;
+}
+.ui-page-inner {
+    display: inline-block;
+    zoom: 1;
+}
+.ui-page .now_page, .ui-page .now_page:hover, .ui-page .on, .ui-page .on:hover {
+    border: 1px solid #ff6767;
+    background-color: #ff6767;
+    color: #fff;
+    cursor: default;
+}
+.ui-page a, .ui-page span {
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 0 11px;
+    border: 1px solid #eee;
+    vertical-align: top;
+    color: #999;
+    background-color: #f8f8f8;
+    float: left;
+}
